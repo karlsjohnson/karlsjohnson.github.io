@@ -1,0 +1,69 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: #abc;
+}
+
+
+.col-12, .col-sm-4{
+    padding: 5px;
+}
+
+.itemLink {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #9ab;
+    border-radius: 10px;
+    border: 1px solid #678;
+    padding: 0px;
+}
+
+.space{
+    border-right: solid 1px #678;
+    margin-right: 2px;
+    padding-right: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.itemTitle{
+font-size: 1rem;
+font-weight: bold;
+font-style: italic;
+color: #000;
+margin: 2px 4px;
+width: 100%;
+border-bottom: solid 1px #678;
+
+}
+.itemLink a {
+
+}
+
+.itemLink figure {
+    display: block;
+    margin: 10px 0px;
+
+
+}
+
+.itemLink img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.itemLink figcaption {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 4px #678;
+    display: block;
+    text-align: center;
+
+}
