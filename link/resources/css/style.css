@@ -7,7 +7,8 @@ body {
 }
 
 
-.col-12, .col-sm-4{
+.col-12,
+.col-sm-4 {
     padding: 5px;
 }
 
@@ -22,7 +23,7 @@ body {
     padding: 0px;
 }
 
-.space{
+.space {
     border-right: solid 1px #678;
     margin-right: 2px;
     padding-right: 2px;
@@ -33,25 +34,21 @@ body {
 
 
 
-.itemTitle{
-font-size: 1rem;
-font-weight: bold;
-font-style: italic;
-color: #000;
-margin: 2px 4px;
-width: 100%;
-border-bottom: solid 1px #678;
-
+.itemTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    margin: 2px 4px;
+    width: 100%;
+    border-bottom: solid 1px #678;
 }
-.itemLink a {
 
-}
+.itemLink a {}
 
 .itemLink figure {
     display: block;
     margin: 10px 0px;
-
-
 }
 
 .itemLink img {
@@ -65,5 +62,4 @@ border-bottom: solid 1px #678;
     text-shadow: 1px 1px 4px #678;
     display: block;
     text-align: center;
-
 }
