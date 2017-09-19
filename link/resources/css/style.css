@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #abc;
+    background-color: #777;
 }
 
 
@@ -16,7 +16,7 @@ body {
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #9ab;
+    background-color: #ccc;
     border-radius: 10px;
     border: 1px solid #678;
     padding: 0px;
