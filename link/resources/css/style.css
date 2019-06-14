@@ -24,10 +24,11 @@ body {
 }
 
 .space {
-    border-right: solid 1px #678;
+    border-right: solid 10px #678;
     margin-right: 2px;
     padding-right: 2px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 
