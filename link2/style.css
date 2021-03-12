@@ -1,0 +1,70 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #aaa;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.PriceWidget {
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 5px;
+}
+
+.main {
+  border-radius: 5px;
+  background: #888;
+  border-style: solid;
+  border-width: .1em;
+  border-color: #777;
+  display: inline-flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 5px grey;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.main2 {
+  display: inline-flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  background-color: #888;
+  border-radius: 10px;
+  border: 1px solid #678;
+}
+
+.link {
+  text-align: center;
+  width: 80px;
+  margin: 0px 5px 0px 5px;
+}
+
+a.link{
+  color: #6af;
+  font-size: larger;
+}
+
+a.link:hover{
+  color: #fff;
+  font-size: larger;
+}
+
+.link img{
+  width: 75px;
+  height: 75px;
+  
+}
+
+.link figure {
+  margin: 10px 0px;
+}
+
+.link figcaption {
+  font-size: .8em;
+  text-shadow: 1px 1px 2px #000;
+}

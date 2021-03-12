@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>Start</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 main">
+        <a class="link" href="https://www.coingecko.com/en">
+          <figure>
+            <img src="images/coingecko.png" alt="coingecko Icon">
+            <figcaption>coingecko</figcaption>
+          </figure>
+        </a>
+        <a class="link" href="https://www.duolingo.com">
+          <figure>
+            <img src="images/duolingo.png" alt="duolingo Icon">
+            <figcaption>duolingo</figcaption>
+          </figure>
+        </a>
+        <a class="link" href="https://www.reddit.com">
+          <figure>
+            <img src="images/reddit.png" alt="reddit Icon">
+            <figcaption>reddit</figcaption>
+          </figure>
+        </a>
+        <a class="link" href="https://www.accuweather.com/en/us/issaquah/98027/weather-forecast/346384">
+          <figure>
+            <img src="images/accuweatherwa.png" alt="accuweather Icon">
+            <figcaption>Weather</figcaption>
+          </figure>
+        </a>
+        <a class="link" href="https://www.instagram.com">
+          <figure>
+            <img src="images/instagram.png" alt="Instagram Icon">
+            <figcaption>Instagram</figcaption>
+          </figure>
+        </a>
+        <a class="link" href="https://www.pinterest.com">
+          <figure>
+            <img src="images/pinterest.png" alt="Pinterest Icon">
+            <figcaption>Pinterest</figcaption>
+          </figure>
+        </a>
+
+      </div>
+      <div class="col-md-4 sidebar">
+        <!-- Cryptocurrency Price Widget -->
+        <div class="PriceWidget">
+        <script>
+          ! function () {
+            var e = document.getElementsByTagName("script"),
+              t = e[e.length - 1],
+              n = document.createElement("script");
+
+            function r() {
+              var e = crCryptocoinPriceWidget.init({
+                base: "USD",
+                items: "BTC,ETH,ADA,DOT,LINK,ATOM,SNX,AAVE",
+                backgroundColor: "D9D9D9",
+                streaming: "1",
+                striped: "1",
+                rounded: "1",
+                boxShadow: "1",
+                border: "1"
+              });
+              t.parentNode.insertBefore(e, t)
+            }
+            n.src = "https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CADA%2CDOT%2CLINK%2CATOM%2CSNX%2CAAVE", n
+              .async = !0, n.readyState ? n.onreadystatechange = function () {
+                "loaded" != n.readyState && "complete" != n.readyState || (n.onreadystatechange = null, r())
+              } : n.onload = function () {
+                r()
+              }, t.parentNode.insertBefore(n, null)
+          }();
+        </script><!-- /Cryptocurrency Price Widget -->
+</div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <footer>
+
+
+  </footer>
+
+
+  <!--End of File here  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
